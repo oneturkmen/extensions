@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "De-quorify",
+  "version": "1.0",
+
+  "description": "Lets you browser Quora answers without signup",
+
+  "icons": {
+    "48": "icons/main.png",
+    "96": "icons/main.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.quora.com/*"],
+      "js": ["deq.js"]
+    }
+  ]
+
+}
