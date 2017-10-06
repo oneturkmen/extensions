@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "MIT Tech, please",
+  "version": "1.0",
+
+  "description": "Lets you into MIT Tech Review without necessity for subscription",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.technologyreview.com/*"],
+      "js": ["deq.js"]
+    }
+  ]
+
+}
