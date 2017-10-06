@@ -1,6 +1,6 @@
-# simple and helpful extensions
+# Simple (yet helpful) browser extensions
 
-Browser extensions created to automate trivial tasks
+Browser extensions created to remove the unnecessary content: ads, blocking (non-scrolling) sections, windows, etc.
 
 ### Current list:
 
@@ -8,4 +8,6 @@ Browser extensions created to automate trivial tasks
 
 Created Firefox extension to get into Quora and read answers *without need to signup*.
 
-**WIP**
+#### MIT Tech Review
+
+Wanted to read article at MIT Tech Review (at that time, used incognito tab). It asked me to switch to non-incognito, or buy subscription. Therefore, I made an extension that simply removes the section that blocks me from reading.
